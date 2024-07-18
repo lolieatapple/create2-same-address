@@ -12,6 +12,19 @@ The CREATE2 Same Address Deployer is a Solidity smart contract that allows devel
 - Once a contract is deployed to an address, subsequent deployments to the same address will fail.
 - The address of the deployer contract itself is crucial. To achieve the same deployed contract address across different chains, this CREATE2 deployer contract must also have the same address on all chains.
 
+The Create2Deployer has been deployed to these chains:
+
+`0xB278cEa7C413600F14e7eD92600B7AA0B2A86Df5`
+
+- Wanchain Testnet
+- Wanchain Mainnet
+- PLYR PHI
+- PLYR TAU Testnet
+- Avalanche
+- Avalanche fuji Testnet
+
+If you want more chains, please create issue to tell me.
+
 ## 🌟 Features
 
 - Deploy contracts with predictable addresses
