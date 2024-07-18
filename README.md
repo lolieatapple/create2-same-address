@@ -6,6 +6,12 @@ Deploy contracts with the same address across multiple blockchains using CREATE2
 
 The CREATE2 Same Address Deployer is a Solidity smart contract that allows developers to deploy contracts with identical addresses across different blockchain networks. This tool is particularly useful for cross-chain applications and projects that require consistent contract addresses across multiple networks.
 
+## ⚠️ Important Notes
+
+- Ensure you use the same bytecode and seed across different networks to get the same address.
+- Once a contract is deployed to an address, subsequent deployments to the same address will fail.
+- The address of the deployer contract itself is crucial. To achieve the same deployed contract address across different chains, this CREATE2 deployer contract must also have the same address on all chains.
+
 ## 🌟 Features
 
 - Deploy contracts with predictable addresses
